@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 500px;
+	height: 300px;
+
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+
+	background: lightgray;
+}
+
+.barr-contents,
+.barr-contents-dos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	width: 100%;
+	height: 60px;
+
+	margin-top: 10px;
+}
+
+.barr,
+.barr-dos {
+	border: 2px solid #0000006e;
+
+	width: 80%;
+	height: 20px;
+	margin: 0 10px;
+
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+#barr-width,
+#barr-width-dos {
+	height: 100%;
+	background: #ED213A;
+	background: -webkit-linear-gradient(140deg,#ED213A, #93291E);
+	background: linear-gradient(140deg, #ED213A,#93291E);
+
+	transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+/* the Length of width of bars */
+.barr-width-0 {
+	width: 0;
+}
+
+.barr-width-10 {
+	width: 10%;
+}
+
+.barr-width-20 {
+	width: 20%;
+}
+
+.barr-width-30 {
+	width: 30%;
+}
+
+.barr-width-40 {
+	width: 40%;
+}
+
+.barr-width-50 {
+	width: 50%;
+}
+
+.barr-width-60 {
+	width: 60%;
+}
+
+.barr-width-70 {
+	width: 70%;
+}
+
+.barr-width-80 {
+	width: 80%;
+}
+
+.barr-width-90 {
+	width: 90%;
+}
+
+.barr-width-100 {
+	width: 100%;
+}
+
+/* The text of counter */
+.barr-counter-text,
+.barr-counter-text-dos {
+	font-weight: bold;
+	color: #0000006e;
+	transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+}
+
+/* Form of new value for the width of bars */
+#barr-form,
+#barr-form-dos {
+	/* background: blue; */
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#barr-form input[type='number'],
+#barr-form-dos input[type='number'] {
+	display: block;
+	margin: auto;
+	width: 90%;
+	height: 25px;
+	border: none;
+	outline: none;
+	padding: 2px 5px;
+	font-weight: bold;
+	color: #0000006e;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+#barr-form button[type='submit'],
+#barr-form-dos button[type='submit'] {
+	width: 90%;
+	height: 25px;
+	margin: 10px auto;
+	color: #0000006e;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/index.css">
+	<title>Barras Animadas</title>
+</head>
+<body>
+	
+	<main class='main'>
+
+		<div>
+			<div class="barr-contents">
+				<div class="barr">
+					<div id="barr-width" class="barr-width-0"></div>
+				</div>
+	
+				<span id="barr-counter-text" class='barr-counter-text'>0</span>
+				<span class='barr-counter-text'>%</span>
+			</div>
+	
+			<form id='barr-form' action="javascript:void(0)">
+				<input type="number" min='0' max='100' step='10' value='0'>
+	
+				<button type='submit'>Actualizar</button>
+			</form>
+		</div>
+
+		<div>
+			<div class="barr-contents-dos">
+				<div class="barr-dos">
+					<div id="barr-width-dos" class="barr-width-0"></div>
+				</div>
+	
+				<span id="barr-counter-text-dos" class='barr-counter-text-dos'>0</span>
+				<span class='barr-counter-text-dos'>%</span>
+			</div>
+	
+			<form id='barr-form-dos' action="javascript:void(0)">
+				<input type="number" min='0' max='100' step='10' value='0'>
+	
+				<button type='submit'>Actualizar</button>
+			</form>
+		</div>		
+
+	</main>
+
+	<script src="./js/index.js"></script>
+</body>
+</html>
