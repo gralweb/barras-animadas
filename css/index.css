@@ -37,6 +37,7 @@ main {
 .barr,
 .barr-dos {
 	border: 2px solid #0000006e;
+	overflow: hidden;
 
 	width: 80%;
 	height: 20px;
@@ -56,11 +57,11 @@ main {
 	background: -webkit-linear-gradient(140deg,#ED213A, #93291E);
 	background: linear-gradient(140deg, #ED213A,#93291E);
 
-	transition: all 1s ease-in-out;
-	-webkit-transition: all 1s ease-in-out;
-	-moz-transition: all 1s ease-in-out;
-	-ms-transition: all 1s ease-in-out;
-	-o-transition: all 1s ease-in-out;
+	transition: all 800ms ease-in-out;
+	-webkit-transition: all 800ms ease-in-out;
+	-moz-transition: all 800ms ease-in-out;
+	-ms-transition: all 800ms ease-in-out;
+	-o-transition: all 800ms ease-in-out;
 
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
