@@ -118,6 +118,13 @@ main {
 }
 
 /* The text of counter */
+.barr-content-counter-text,
+.barr-content-counter-text-dos {
+	display: flex;
+	min-width: 44px;
+	max-width: 45px;
+}
+
 .barr-counter-text,
 .barr-counter-text-dos {
 	font-weight: bold;
