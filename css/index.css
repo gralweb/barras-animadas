@@ -20,7 +20,7 @@ main {
 	-ms-border-radius: 20px;
 	-o-border-radius: 20px;
 
-	background: lightgray;
+	/* background: lightgray; */
 }
 
 .barr-contents,
@@ -38,11 +38,11 @@ main {
 .barr,
 .barr-dos {
 	/* background-color: #ed21391a; */
-	background-color: #E5E7E9;
+	/* background-color: #E5E7E9; */
 	overflow: hidden;
 
 	width: 80%;
-	height: 20px;
+	height: 10px;
 	margin: 0 10px;
 
 	border-radius: 15px;
@@ -50,14 +50,28 @@ main {
 	-moz-border-radius: 15px;
 	-ms-border-radius: 15px;
 	-o-border-radius: 15px;
+
+	box-shadow: 2px 2px 12px -3px #0000006e;
 }
 
 #barr-width,
 #barr-width-dos {
 	height: 100%;
 	background: #ED213A;
-	background: -webkit-linear-gradient(140deg,#ED213A, #93291E);
-	background: linear-gradient(140deg, #ED213A,#93291E);
+	background: -webkit-linear-gradient(140deg, #93291E, #ED213A);
+	background: linear-gradient(140deg, #93291E,#ED213A);
+
+	/* background: #12c2e9;
+	background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+	background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); */
+
+	/* background: #aa4b6b; 
+	background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); 
+	background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); */
+
+	/* background: #EB5757;
+	background: -webkit-linear-gradient(to right, #000000, #EB5757);
+	background: linear-gradient(to right, #000000, #EB5757); */
 
 	transition: all 800ms ease-in-out;
 	-webkit-transition: all 800ms ease-in-out;
@@ -127,6 +141,8 @@ main {
 
 .barr-counter-text,
 .barr-counter-text-dos {
+	font-family: 'helvetica';
+	font-size: .7rem;
 	font-weight: bold;
 	color: #0000006e;
 	transition: all 300ms ease-in-out;
@@ -139,6 +155,7 @@ main {
 /* Form of new value for the width of bars */
 #barr-form,
 #barr-form-dos {
+	visibility: hidden;
 	/* background: blue; */
 	width: 80%;
 	margin: auto;
