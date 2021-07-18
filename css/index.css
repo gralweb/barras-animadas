@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 main {
@@ -36,7 +37,8 @@ main {
 
 .barr,
 .barr-dos {
-	border: 2px solid #0000006e;
+	/* background-color: #ed21391a; */
+	background-color: #E5E7E9;
 	overflow: hidden;
 
 	width: 80%;
