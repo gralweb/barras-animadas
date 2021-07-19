@@ -39,6 +39,7 @@ main {
 .barr-dos {
 	/* background-color: #ed21391a; */
 	/* background-color: #E5E7E9; */
+	background-color: #f9ebea70;
 	overflow: hidden;
 
 	width: 80%;
@@ -51,7 +52,7 @@ main {
 	-ms-border-radius: 15px;
 	-o-border-radius: 15px;
 
-	box-shadow: 2px 2px 12px -3px #0000006e;
+	box-shadow: 2px 2px 12px -1px #0000006e;
 }
 
 #barr-width,
