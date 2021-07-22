@@ -23,7 +23,7 @@ main {
 	/* background: lightgray; */
 }
 
-.barr-contents,
+.barr-contents-uno,
 .barr-contents-dos {
 	display: flex;
 	align-items: center;
@@ -35,7 +35,7 @@ main {
 	margin-top: 10px;
 }
 
-.barr,
+.barr-uno,
 .barr-dos {
 	/* background-color: #ed21391a; */
 	/* background-color: #E5E7E9; */
@@ -55,7 +55,7 @@ main {
 	box-shadow: 2px 2px 15px -2px #0000006e;
 }
 
-#barr-width,
+#barr-width-uno,
 #barr-width-dos {
 	height: 100%;
 	background: #ED213A;
@@ -133,14 +133,14 @@ main {
 }
 
 /* The text of counter */
-.barr-content-counter-text,
+.barr-content-counter-text-uno,
 .barr-content-counter-text-dos {
 	display: flex;
 	min-width: 44px;
 	max-width: 45px;
 }
 
-.barr-counter-text,
+.barr-counter-text-uno,
 .barr-counter-text-dos {
 	font-family: 'helvetica';
 	font-size: .7rem;
@@ -154,9 +154,9 @@ main {
 }
 
 /* Form of new value for the width of bars */
-#barr-form,
+#barr-form-uno,
 #barr-form-dos {
-	visibility: hidden;
+	/* visibility: hidden; */
 	/* background: blue; */
 	width: 80%;
 	margin: auto;
@@ -166,7 +166,7 @@ main {
 	justify-content: center;
 }
 
-#barr-form input[type='number'],
+#barr-form-uno input[type='number'],
 #barr-form-dos input[type='number'] {
 	display: block;
 	margin: auto;
@@ -184,7 +184,7 @@ main {
 	-o-border-radius: 5px;
 }
 
-#barr-form button[type='submit'],
+#barr-form-uno button[type='submit'],
 #barr-form-dos button[type='submit'] {
 	width: 90%;
 	height: 25px;
